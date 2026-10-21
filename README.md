@@ -3,7 +3,8 @@
 Personvern og hjelp for iPhone-appen Pokerface, servert av GitHub Pages. Statiske filer, ingen byggsteg.
 
 - `index.html`, `personvern/`, `support/` – norsk.
-- `en/`, `en/privacy/`, `en/support/` – engelsk.
+- `en/`, `de/`, `fr/`, `sv/`, `da/` – engelsk, tysk, fransk, svensk og dansk, hver med `privacy/` og `support/`.
+- Hver side har `hreflang`-lenker til de andre språkene og en språkvelger nederst.
 - `support/` og `personvern/` (og de engelske) er adressene i App Store Connect.
 - Alle lenker er relative, så sidene virker både under `svaagan.github.io/pokerface/` og på et eget domene senere.
 - `fonts/` – appens font, Bricolage Grotesque, med OFL-lisensen.
