@@ -8,5 +8,6 @@ Personvern og hjelp for iPhone-appen Pokerface, servert av GitHub Pages. Statisk
 - `support/` og `personvern/` (og de engelske) er adressene i App Store Connect.
 - Alle lenker er relative, så sidene virker både under `svaagan.github.io/pokerface/` og på et eget domene senere.
 - `fonts/` – appens font, Bricolage Grotesque, med OFL-lisensen.
+- `appstore-no.svg`, `appstore-en.svg` – Apples offisielle «Last ned i App Store»-merke (kopiert fra RunPace). Tysk, fransk, svensk og dansk bruker det engelske.
 
 Kilden til appen ligger i et eget, privat repo.

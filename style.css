@@ -43,14 +43,14 @@ strong { color: var(--text); }
 a { color: var(--accent-text); font-weight: 700; }
 .muted { color: var(--text-tertiary); }
 
-.soon {
-  border: 2px dashed var(--divider);
-  border-radius: 18px;
-  padding: 16px 20px;
+/* Apples offisielle merke; høyden følger Apples minstekrav (40 px). */
+.store-badge {
+  display: inline-block;
   margin: 24px 0 8px;
-  color: var(--text-tertiary);
-  font-weight: 700;
+  line-height: 0;
 }
+.store-badge img { height: 50px; width: auto; display: block; }
+.store-badge:hover { opacity: 0.85; }
 
 .button {
   display: flex;
